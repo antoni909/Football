@@ -1,0 +1,62 @@
+
+.background-pagecolor {
+    background-color: rgb(77, 127, 170) ;
+}
+.background-sect-duckscolor {
+    background-color: green;
+}
+.background-sect-beaverscolor {
+    background-color: orangered;
+}
+.background-ftr {
+    color: red;
+}
+header h1 {
+    color: rgb(94, 27, 27);
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+h2 {
+    color: rgb(250, 249, 249);
+    margin: auto;
+    padding: auto;
+    text-align: left;
+}
+.txt-header-uoocolor {
+    color: rgb(233, 233, 54);
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+.txt-osucolor {
+    color: orange;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.imgducks {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.imgbeavers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.background-navbar {
+    background-color: black;
+}
+
+.txt-p-uocolor {
+    color: yellow;
+}
+
+.txt-p-osucolor {
+    color: black;
+}
