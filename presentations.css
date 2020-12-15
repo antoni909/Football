@@ -29,6 +29,7 @@ h2 {
     text-emphasis: color;
 }
 #user-input {
+    color: black;
     outline: auto;
     margin: auto;
     padding: auto;
