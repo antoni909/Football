@@ -1,27 +1,38 @@
 
 .background-pagecolor {
-    background-color: rgb(77, 127, 170) ;
+    background-color: rgb(255, 255, 255);
+    outline: auto;
 }
 .background-sect-duckscolor {
     background-color: green;
+    outline: auto;
 }
 .background-sect-beaverscolor {
     background-color: orangered;
+    outline: auto;
 }
 .background-ftr {
     color: red;
 }
 header h1 {
-    color: rgb(94, 27, 27);
+    color: rgba(157, 0, 255, 0.603);
     margin: auto;
     padding: auto;
     text-align: center;
 }
 h2 {
-    color: rgb(250, 249, 249);
+    outline: auto;
+    color: rgb(0, 0, 0);
     margin: auto;
     padding: auto;
-    text-align: left;
+    text-align: center;
+    text-emphasis: color;
+}
+#user-input {
+    outline: auto;
+    margin: auto;
+    padding: auto;
+    text-align: center;
 }
 .txt-header-uoocolor {
     color: rgb(233, 233, 54);

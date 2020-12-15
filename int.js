@@ -7,10 +7,10 @@ if (response === "beaver") {
 } else if (response === "duck") {
     userInput = alert("FAIL!!! you are on the losing team!!!");
 } else  {
-    userInput = alert("You're a platypus!!!XD");
+    userInput === alert("You're a platypus!!!XD");
 }
-
+console.log(response);
 console.log(userInput);
 
-var element = document.getElementById("user-responses");
-element.innerText = console.log(userInput);
+document.getElementById("user-input").innerHTML = response;
+
