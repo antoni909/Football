@@ -88,3 +88,4 @@ for (var i = 0; i < numberOfStars; i++); {
     console.log(i);
     addStarToDocument();
 }
+
