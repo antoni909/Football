@@ -25,7 +25,7 @@
 // var teamChoice = ""; //globally declaring this var
 
 
-// Here I will create a Password Promt
+// Here I will create a Password Prompt
 
 var secretPassword = "Football";    //the expected password stored in its variable
 
@@ -36,6 +36,7 @@ do {
 
 } while (userPasswordEntry !== secretPassword);
 
+// Below is my refactored code that stores user input and slaps it on the HTML page
 
 function usrReply() {
     var prmptQuestion = "Are you a beaver or duck Fan?!!!"
@@ -65,3 +66,26 @@ usrReply();
 
 document.getElementById("user-input").innerHTML = teamChoice;
 document.getElementById("divColor").style.backgroundColor = color;
+
+
+
+
+
+//Here I will create a prompt for the user to ask how many stars would they rate the USABILITY and LOGIC of the page
+
+var numberOfStars = prompt("From 5 stars being Great and 1 star being Poor, How many Stars would you like to give this page?");
+
+function addStarToDocument(imageName) {
+    if (userRating === numberOfStars ) {
+            //statement
+    }
+    document.write("<img src = \"images/star.jpg\">");
+}
+
+
+//Here I will create a For loop that will produce a Number of stars (an image src) based on the desired rating
+
+for (var i = 0; i < numberOfStars; i++); {
+    console.log(i);
+    addStarToDocument();
+}
