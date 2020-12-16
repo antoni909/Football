@@ -73,15 +73,14 @@ document.getElementById("divColor").style.backgroundColor = color;
 
 //Here I will create a prompt for the user to ask how many stars would they rate the USABILITY and LOGIC of the page
 
-var numberOfStars = prompt("From 5 stars being Great and 1 star being Poor, How many Stars would you like to give this page?");
-
 function addStarToDocument(imageName) {
-    if (userRating === numberOfStars ) {
+    var numberOfStars = prompt("From 5 stars being Great and 1 star being Poor, How many Stars would you like to give this page?"); {
             //statement
     }
     document.write("<img src = \"images/star.jpg\">");
 }
 
+addStarToDocument();
 
 //Here I will create a For loop that will produce a Number of stars (an image src) based on the desired rating
 
