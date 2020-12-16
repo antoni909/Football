@@ -3,14 +3,27 @@
     background-color: rgb(255, 255, 255);
     outline: auto;
 }
-.background-sect-duckscolor {
+/* previouse background color for duck/beaver sections */
+/* .background-sect-duckscolor {
     background-color: green;
     outline: auto;
 }
 .background-sect-beaverscolor {
     background-color: orangered;
     outline: auto;
+} */
+
+/* new js id for duck/beaver sections*/
+
+#divColor {
+    position: relative; /* https://www.w3schools.com/css/css_positioning.asp */
+    padding: 1rem;
+    padding-bottom: 10vh;
+    border-radius: 5%;
+    margin: auto;
+    width: 70%;
 }
+
 .background-ftr {
     color: red;
 }

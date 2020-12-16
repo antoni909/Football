@@ -1,28 +1,3 @@
-var teamChoice = ""; //globally declaring this var
-
-function usrReply() {
-    var prmptQuestion = "Are you a beaver or duck Fan?!!!"
-    var userInput = prompt(prmptQuestion);
-    console.log(userInput);
-    myMessage(userInput);
-}
-
-usrReply();
-
-function myMessage(userInput) {
-    teamChoice = userInput;
-    console.log(userInput);
-    if (userInput === "beaver") {
-        alert( "congratulations you are on the winning team! :D ");       
-    } else if (userInput === "duck") {
-        alert("FAIL!!! you are on the losing team!!!");
-    } else  {
-        alert("You're a platypus!!!XD");
-    }
-}    
-
-document.getElementById("user-input").innerHTML = teamChoice;
-
 // OLD code below
 
 //myMessage("");
@@ -47,3 +22,33 @@ document.getElementById("user-input").innerHTML = teamChoice;
 
 //document.getElementById("user-input").innerHTML = teamChoice;
 
+// var teamChoice = ""; //globally declaring this var
+
+function usrReply() {
+    var prmptQuestion = "Are you a beaver or duck Fan?!!!"
+    var userInput = prompt(prmptQuestion);
+    myMessage(userInput);
+}
+
+function myMessage(userInput) {
+    teamChoice = userInput;
+    console.log(userInput);
+    if (userInput === "beaver") {
+        alert( "congratulations you are on the winning team! :D ");
+        color = "orange"       
+    } else if (userInput === "duck") {
+        alert("FAIL!!! you are on the losing team!!!");
+        color = "yellow"
+    } else  {
+        alert("You're a platypus!!!XD");
+        color = "grey"
+    }
+}    
+
+var color; //declare the background color
+var teamChoice = ""; //globally declaring this var after function declaration
+
+usrReply();
+
+document.getElementById("user-input").innerHTML = teamChoice;
+document.getElementById("divColor").style.backgroundColor = color;
