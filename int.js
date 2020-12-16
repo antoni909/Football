@@ -24,6 +24,19 @@
 
 // var teamChoice = ""; //globally declaring this var
 
+
+// Here I will create a Password Promt
+
+var secretPassword = "Football";    //the expected password stored in its variable
+
+// In the do while loop below, the stored prompt entry (userPasswordEntry will be compared to the stored value)
+
+do {                        
+    var userPasswordEntry = prompt("What is the Password?");   //the users input is stored in the variable (userPasswordEntry) via prompt()
+
+} while (userPasswordEntry !== secretPassword);
+
+
 function usrReply() {
     var prmptQuestion = "Are you a beaver or duck Fan?!!!"
     var userInput = prompt(prmptQuestion);
@@ -34,7 +47,7 @@ function myMessage(userInput) {
     teamChoice = userInput;
     console.log(userInput);
     if (userInput === "beaver") {
-        alert( "congratulations you are on the winning team! :D ");
+        alert( "congratulations you the better team! :D ");
         color = "orange"       
     } else if (userInput === "duck") {
         alert("FAIL!!! you are on the losing team!!!");
